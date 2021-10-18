@@ -1,0 +1,214 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style-type: none;
+}
+.application {
+	position: relative;
+}
+.house-absolute {
+	position: absolute;
+	left: 60px;
+}
+.house {
+	position: relative;
+}
+.house-top-absolute {
+	position: absolute;
+}
+.house-top {
+	display: block;
+	width: 0;
+	height: 0;
+	border: 150px solid transparent; 
+	border-bottom: 150px solid red;
+	position: relative;
+}
+.house-top-window {
+	width: 60px;
+	height: 60px;
+	background:  #87CEEB;
+	border-radius: 30px;
+	position: absolute;
+	top: 60px;
+	left: -30px;
+}
+.house-bottom-absolute {
+	position: absolute;
+	top: 300px;
+	left: 25px;
+}
+.house-bottom {
+	display: block;
+	width: 250px;
+	height: 200px;
+	background: #F4A460;
+	position: relative;
+}
+.house-bottom-window {
+	width: 100px;
+	height: 70px;
+	background: #87CEEB;
+	position: absolute;
+	top: 65px;
+	left: 75px;
+}
+.bird-absolute {
+	display: block;
+	position: absolute;
+	top: 150px;
+	left: 450px;
+	transform: rotate(-20deg);
+}
+.body-bird {
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	background: blue;
+	position: relative;
+}
+.bird-wing1 {
+	width: 0px;
+	height: 0px;
+	border: 50px solid transparent;
+	border-bottom: 50px solid blue;
+	position: absolute;
+	transform: rotate(20deg);
+	top: -96px;
+	left: -77px;
+}
+.bird-wing2 {
+	width: 0px;
+	height: 0px;
+	border: 50px solid transparent;
+	border-bottom: 50px solid blue;
+	position: absolute;
+	transform: rotate(-18deg);
+	top: -94px;
+	left: 31px;
+}
+.tree-absolute {
+	display: block;
+	position: absolute;
+	top: 172px;
+	left: 550px;
+}
+.tree {
+	position: relative;
+}
+.tree-top {
+	width: 200px;
+	height: 200px;
+	background: green;
+	border-radius: 100px;
+	position: absolute;
+}
+.tree-bottom {
+	width: 30px;
+	height: 130px;
+	background: #8B4513;
+	position: absolute;
+	left: 85px;
+	top: 198px;
+	position: absolute;
+}
+.new-year-tree-absolute {
+	position: absolute;
+	top: 130px;
+	right: 280px;
+}
+.new-year-tree {
+	position: relative;
+}
+.new-year-tree1 {
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	border: 70px solid transparent;
+	border-bottom: 70px solid green;
+}
+.new-year-tree2 {
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	border: 100px solid transparent;
+	border-bottom: 100px solid green;
+	top: 18px;
+	right: -170px;
+}
+.new-year-tree3 {
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	border: 130px solid transparent;
+	border-bottom: 130px solid green;
+	top: 50px;
+	right: -200px;
+}
+.new-year-tree4 {
+	position: absolute;
+	width: 40px;
+	height: 60px;
+	background: #8B4513;
+	top: 310px;
+	right: -92px;
+}
+.sun-absolute {
+	position: absolute;
+	top: -20px;
+	right: 250px;
+}
+.sun {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	background: yellow;
+}
+.ray1 {
+	position: absolute;
+	width: 20px;
+	height: 100px;
+	background: yellow;
+	top: -21px;
+	right: 135px;
+	transform: rotate(104deg);
+}
+.ray2 {
+	position: absolute;
+	width: 20px;
+	height: 100px;
+	background: yellow;
+	top: 45px;
+	right: 126px;
+	transform: rotate(67deg);
+}
+.ray3 {
+	position: absolute;
+	width: 20px;
+	height: 100px;
+	background: yellow;
+	top: 91px;
+	right: 71px;
+	transform: rotate(22deg);
+}
+.ray4 {
+	position: absolute;
+	width: 20px;
+	height: 100px;
+	background: yellow;
+	top: 74px;
+	right: -24px;
+	transform: rotate(-43deg);
+}
+.ray5 {
+	position: absolute;
+	width: 20px;
+	height: 100px;
+	background: yellow;
+	top: -4px;
+	right: -57px;
+	transform: rotate(-96deg);
+}
